@@ -56,8 +56,49 @@ body {
   color: #ffffff;
   text-transform: capitalize;
   font-weight: bold;
-  letter-spacing: 0.1em;
-  word-spacing: 0.2em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+.wrapper {
+  
+  width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 92%;
+  left: 50%;
+}
+.Quote {
+  
+  width: 90%;
+  /* background-color: #f43543; */
+  /* padding: 50px 40px; */
+  /* box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5); */
+  position: relative;
+  /* border-radius: 8px; */
+  text-align: center;
+  
+}
+.Quote:after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 120%;
+  /* background-color: #ffffff; */
+  z-index: -1;
+  top: -10%;
+  left: 10%;
+}
+.Quote p {
+  color: #ffffff;
+  /* line-height: 2; */
+  font-size: 15px;
+}
+.Quote h3 {
+  color: #fffcfc;
+  font-size: 10px;
+  /* margin: 20px 0 60px 0; */
+  font-weight: 400;
+  text-transform: capitalize;
 }
 .bottom-right {
   position: fixed;
