@@ -41,3 +41,43 @@ body {
   margin-right:16px;
   margin-left:16px;
 }
+.greeting{
+  font-size: 2.4em;
+  width: 25em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+  padding: 4.5em 1.3em;
+}
+.greeting h1{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+.bottom-right {
+  position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+  
+}
+.bottom-right a {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  border: light;
+  color:#150c41;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding-top: 9px;
+  background-color: #ebe3e3;
+
+}
+
