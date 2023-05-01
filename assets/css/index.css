@@ -76,6 +76,7 @@ body {
   position: relative;
   /* border-radius: 8px; */
   text-align: center;
+  margin-bottom: -15px;
   
 }
 .Quote:after {
