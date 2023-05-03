@@ -5,12 +5,15 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  
-  background-image: url(https://source.unsplash.com/random/1400x700/?nature,river,forest,sunset);
+  background-image: url(https://source.unsplash.com/random/1400x700/?nature,river,forest,sunset,culture,aesthetic,technology);
 }
-
 img {
   max-width: 100%;
+}
+h1{
+  color:#ffffff;
+  font-size: 50px;
+
 }
 .slider-game {
   width: 80%;
@@ -25,14 +28,12 @@ img {
   height: 30em;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 8em;
-  border: solid 40px;
-  border-color: #ffffff;
+  border: solid 40px white;
 }
 .original-image {
   width: 30em;
   height: 30em;
-  border: solid 40px;
-  border-color: #ffffff;
+  border: solid 40px white;
 }
 .image-container {
   border: 1px solid #ffffff;
