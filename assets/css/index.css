@@ -162,4 +162,35 @@ body {
   outline: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
+.weather{
+  text-align: right;
+}
+.weather h1{
+
+    margin-top: 50px;
+  
+}
+.weather img {
+  width: 53px;
+  height: 56px;
+  margin-top: -55px;
+  margin-right: 128px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.temperature {
+  font-size: 24px;
+    font-weight: bold;
+    margin-top: -70px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.location {
+  font-size: 19.5px;
+  margin-top: -3px;
+  margin-right: 20px;
+  color: #ffffff;
+}
 

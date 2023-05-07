@@ -1,72 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital Clock</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets\css\index.css" />
-    <link rel="stylesheet" href="assets\css\background.css">
-    <link rel="stylesheet" href="assets\css\menu.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <div class="clock">
-      <div id="hour"></div>
-      <span>:</span>
-      <div id="minute"></div>
-      <span>:</span>
-      <div id="seconds"></div>
-    </div>
-    <div class="greeting">DEMO TEXT</div>
-    <div class="bottom-right">
-        <a href="todo.html" type="button" >
-          <i class="fa-regular fa-pen-to-square"></i>
-        </a>
-    </div>
-    <div class="wrapper">
-      <div class="Quote">
-        <p id="quote">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
-          magni.
-        </p>
-        <h3 id="author">Lorem, ipsum.</h3>
-        <!-- <button id="btn">Get Quote</button> -->
-      </div>
-    </div>
-    <div class="menu">
-      <a href="sliding\sliding.html">
-        <i class="fas fa-puzzle-piece"></i>
-      </a>
-      <a href="pokemon\pokemon.html" >
-        <i class="fas fa-brain"></i>
-      </a>
-      <a href="hangman\hangman.html">
-        <i class="fas fa-person"></i>
-      </a>
-      <a href="connect4\connect4.html">
-        <i class="fa-brands fa-slack"></i>
-      </a>
-      <button id="toggle-btn">
-        <i class="fas fa-gamepad"></i>
-      </button>
-    </div>
-    <div class="search-container">
-      <input type="text" placeholder="Search..." class="query" value="">
-      <button class="search-btn">Search</button>
-    </div>
-    
-    
 
-    <!-- Script -->
-    <script src="assets\javascript\clock.js"></script>
-    <script src="assets\javascript\greeting.js"></script>
-    <script src="assets\javascript\qoute.js"></script>
-    <script src="assets\javascript\menu.js"></script>
-    <script src="assets\javascript\search.js"></script>
-  </body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Clock</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets\css\index.css" />
+  <link rel="stylesheet" href="assets\css\background.css">
+  <link rel="stylesheet" href="assets\css\menu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="clock">
+    <div id="hour"></div>
+    <span>:</span>
+    <div id="minute"></div>
+    <span>:</span>
+    <div id="seconds"></div>
+  </div>
+  <div class="greeting">DEMO TEXT</div>
+  <div class="bottom-right">
+    <a href="todo.html" type="button">
+      <i class="fa-regular fa-pen-to-square"></i>
+    </a>
+  </div>
+  <div class="wrapper">
+    <div class="Quote">
+      <p id="quote">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+        magni.
+      </p>
+      <h3 id="author">Lorem, ipsum.</h3>
+      <!-- <button id="btn">Get Quote</button> -->
+    </div>
+  </div>
+  <div class="menu">
+    <a href="sliding\sliding.html">
+      <i class="fas fa-puzzle-piece"></i>
+    </a>
+    <a href="pokemon\pokemon.html">
+      <i class="fas fa-brain"></i>
+    </a>
+    <a href="hangman\hangman.html">
+      <i class="fas fa-person"></i>
+    </a>
+    <a href="connect4\connect4.html">
+      <i class="fa-brands fa-slack"></i>
+    </a>
+    <button id="toggle-btn">
+      <i class="fas fa-gamepad"></i>
+    </button>
+  </div>
+  <div class="search-container">
+    <input type="text" placeholder="Search..." class="query" value="">
+    <button class="search-btn">Search</button>
+  </div>
+  <div class="weather">
+    <img id="weather-icon" src="">
+    <div class="temperature"></div>
+    <div class="location"></div>
+  </div>
+
+
+
+  <!-- Script -->
+  <script src="assets\javascript\clock.js"></script>
+  <script src="assets\javascript\greeting.js"></script>
+  <script src="assets\javascript\qoute.js"></script>
+  <script src="assets\javascript\menu.js"></script>
+  <script src="assets\javascript\search.js"></script>
+  <script src="assets\javascript\weather.js"></script>
+</body>
+
 </html>
